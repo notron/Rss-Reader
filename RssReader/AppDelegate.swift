@@ -18,6 +18,26 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Override point for customization after application launch.
         
         
+        self.window = UIWindow(frame: UIScreen.main.bounds)
+        
+        let nav1    = UINavigationController()
+        let first   = HomeViewController(nibName: "HomeViewController", bundle: nil)
+        nav1.viewControllers = [first]
+        nav1.tabBarItem = UITabBarItem.init(tabBarSystemItem: .recents, tag: 0)
+        
+        let nav2    = UINavigationController()
+        let second  = BookmarkViewController(nibName: "BookmarkViewController", bundle: nil)
+        nav2.viewControllers = [second]
+        nav2.tabBarItem = UITabBarItem.init(tabBarSystemItem: .bookmarks, tag: 0)
+        
+        let tabs = UITabBarController()
+        tabs.viewControllers = [nav1, nav2]
+        
+        self.window!.rootViewController = tabs
+        self.window?.makeKeyAndVisible()
+        
+        
+        
         UITabBar.appearance().tintColor = UIColor.white
         
         print(NSSearchPathForDirectoriesInDomains(.applicationSupportDirectory, .userDomainMask, true).last! as String)
