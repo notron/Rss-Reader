@@ -267,7 +267,7 @@
 		C34B9C011F480612008416D8 = {
 			isa = PBXGroup;
 			children = (
-				C34B9C0C1F480612008416D8 /* Test */,
+				C34B9C0C1F480612008416D8 /* RssReader */,
 				C34B9C211F480612008416D8 /* TestTests */,
 				C34B9C2C1F480612008416D8 /* TestUITests */,
 				C34B9C0B1F480612008416D8 /* Products */,
@@ -286,7 +286,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		C34B9C0C1F480612008416D8 /* Test */ = {
+		C34B9C0C1F480612008416D8 /* RssReader */ = {
 			isa = PBXGroup;
 			children = (
 				C34B9C0D1F480612008416D8 /* AppDelegate.swift */,
@@ -302,7 +302,7 @@
 				C34B9C111F480612008416D8 /* Main.storyboard */,
 				C319E9B31F4819500071886B /* Resourse */,
 			);
-			path = Test;
+			path = RssReader;
 			sourceTree = "<group>";
 		};
 		C34B9C211F480612008416D8 /* TestTests */ = {
@@ -836,7 +836,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8CAE7F9G35;
-				INFOPLIST_FILE = Test/Info.plist;
+				INFOPLIST_FILE = RssReader/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = RssReader;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -856,7 +856,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8CAE7F9G35;
-				INFOPLIST_FILE = Test/Info.plist;
+				INFOPLIST_FILE = RssReader/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = RssReader;
 				PRODUCT_NAME = "$(TARGET_NAME)";
