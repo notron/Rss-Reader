@@ -9,6 +9,7 @@
 import UIKit
 import Foundation
 
+
 class FeedHandler {
     
     public var feeds : [String: [Feed]] = [:]
